@@ -26,7 +26,7 @@ const ContactMe = props => {
         event.preventDefault();
         const templateId = 'template_RZ52hWbw';
 
-        sendFeedBack(templateId, {message_html: messageValue, from_name: nameValue, reply_to: emailValue})
+        sendFeedBack(templateId, {message_html: messageValue, from_name: nameValue, reply_to: emailValue});
 
         setSuccessMessage(`Thank you, ${nameValue}. Your message has been received!`);
 

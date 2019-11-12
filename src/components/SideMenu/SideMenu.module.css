@@ -79,18 +79,3 @@ a.active {
         right: 0;
     }
 }
-
-@keyframes side-menu-slide-out {
-    0% {
-        opacity: 1;
-        right: 0;
-    }
-    50% {
-        opacity: 0.7;
-        right: -50%;
-    }
-    100% {
-        opacity: 0;
-        right: -100%;
-    }
-}

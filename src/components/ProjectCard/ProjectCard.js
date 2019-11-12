@@ -22,9 +22,19 @@ const ProjectCard = props => {
                 <div className={classes.ProjectImage}>
                     <img alt="first project" src={props.projectData.image} />
                 </div>
+                {/*<h1 style={{lineHeight: '10px'}}>{props.projectData.title}</h1>*/}
                 <div className={classes.TextArea}>
-                    <h1 style={{lineHeight: '10px'}}>{props.projectData.title}</h1>
-                    <p>{props.projectData.info}</p>
+                    <div>
+                        <div className={classes.CardForMobile}>
+                        <div className={classes.SmallImage}>
+                            <img alt="first project" src={props.projectData.image} />
+                        </div>
+                        <strong className={classes.CardTitle}>
+                            {props.projectData.title}
+                        </strong>
+                        </div>
+                        <br/>{props.projectData.info}
+                    </div>
                     <div className={classes.ButtonArea}>
                         <CodeButton codeLink={props.projectData.codeUrl} demoLink={props.projectData.demoUrl} />
                     </div>
