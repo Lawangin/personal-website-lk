@@ -1,0 +1,33 @@
+.Logo {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-left: 6vw;
+    height: 72px;
+}
+
+.Image {
+    width: 40px;
+}
+
+.Name {
+    color: #E24727;
+    padding: 0 10px;
+    box-sizing: border-box;
+    font-family: Gilroy, sans-serif;
+    font-size: 2rem;
+}
+
+@media (max-width: 770px) {
+    .Logo {
+        margin-left: 1vw;
+    }
+}
+
+@media (max-width: 700px) {
+    .Name {
+        font-size: 1.2rem;
+        width: 200px;
+    }
+
+}

@@ -1,0 +1,89 @@
+.Container {
+    width: 80vw;
+    max-width: 800px;
+    background-color: #F5F1EC;
+    padding: 50px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    border: 1px solid #c6c6c6;
+    font-family: Gilroy, sans-serif;
+    color: #422626;
+}
+
+.ContactMeMain h1 {
+    margin-top: 0;
+}
+
+.ContactMeMain {
+    font-family: Gilroy, sans-serif;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    color: #422626;
+}
+
+.inputName,
+.inputEmail {
+    width: 50%;
+    padding: 10px;
+    border: none;
+    max-width: 350px;
+    margin-bottom: 1rem;
+    font-family: Georgia, serif;
+    font-size: 1rem;
+}
+
+.textArea {
+    width: 75%;
+    height: 75px;
+    padding: 10px;
+    border: none;
+    max-width: 600px;
+    margin-bottom: 1rem;
+    font-family: Georgia, serif;
+    font-size: 1rem;
+}
+
+.inputName:focus,
+.inputEmail:focus,
+.textArea:focus {
+    outline: none;
+    border: 1px solid #F6B251;
+}
+
+.Button {
+    width: 100px;
+    height: 40px;
+    background-color: #E24727;
+    border: 0;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    font-family: Gilroy, sans-serif;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.Button:hover {
+    background-color: #fc4a27;
+}
+
+@media (max-width: 550px) {
+    .Container {
+        padding: 10px;
+    }
+
+    .ContactMeMain {
+        margin: 0 auto;
+    }
+
+    .inputName,
+    .inputEmail,
+    .textArea {
+        width: 90%;
+    }
+
+    .textArea {
+        height: 100px;
+    }
+}

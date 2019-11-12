@@ -1,0 +1,48 @@
+.AboutMe {
+    margin: 40px 6vw;
+    color: #422626;
+}
+
+.AboutMe h1 {
+    font-family: Gilroy, sans-serif;
+}
+
+.AboutMeContent {
+    font-family: Georgia, serif;
+    display: flex;
+    justify-content: left;
+    line-height: 1.5;
+}
+
+.AboutMeContent p {
+    font-size: 1rem ;
+    max-width: 50vw;
+}
+
+.Portrait {
+    width: 200px;
+    height: 400px;
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.Portrait img {
+    height: 100%;
+}
+
+@media (min-width: 1000px) {
+    .AboutMeContent p {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .Portrait {
+        display: none;
+    }
+
+    .AboutMeContent p {
+        max-width: 100%;
+    }
+}

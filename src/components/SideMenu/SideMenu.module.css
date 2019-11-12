@@ -1,0 +1,96 @@
+.SideMenu {
+    position: fixed;
+    width: 280px;
+    max-width: 70%;
+    height: 100%;
+    right: 0;
+    top: 0;
+    z-index: 200;
+    background-color: #F0E5D3;
+    padding: 10px 16px;
+    box-sizing: border-box;
+    font-family: Gilroy, sans-serif;
+}
+
+.Open {
+    animation: side-menu-slide-in .3s ease-in forwards;
+}
+
+.Close {
+    /*animation: side-menu-slide-out .3s ease-out forwards;*/
+    right: -100%;
+}
+
+.SideHeaderHolder {
+    display: flex;
+    justify-content: space-between;
+}
+
+.MenuText {
+    color: #E24727;
+    padding: 0 10px;
+}
+
+.CloseIcon {
+    width: 30px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.SideMenuLinks {
+    list-style: none;
+    font-weight: bold;
+    text-align: right;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 1.3rem;
+}
+
+.SideMenuLinks li {
+    margin: 25px 0;
+}
+
+.SideMenuLinks a {
+    color: #E24727;
+    text-decoration: none;
+    width: 100%;
+    box-sizing: border-box;
+    display: block;
+    padding: 10px 0;
+}
+
+a:hover,
+a:active,
+a.active {
+    color: #422626;
+}
+
+@keyframes side-menu-slide-in {
+    0% {
+        opacity: 0;
+        right: -100%;
+    }
+    50% {
+        opacity: 0.3;
+        right: -50%;
+    }
+    100% {
+        opacity: 1;
+        right: 0;
+    }
+}
+
+@keyframes side-menu-slide-out {
+    0% {
+        opacity: 1;
+        right: 0;
+    }
+    50% {
+        opacity: 0.7;
+        right: -50%;
+    }
+    100% {
+        opacity: 0;
+        right: -100%;
+    }
+}

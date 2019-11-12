@@ -1,0 +1,119 @@
+.BannerPlaceholder {
+    width: 100%;
+    height: 60vh;
+    background-color: #F6B251;
+    border-radius: 32px;
+    display: flex;
+    align-items: center;
+    font-family: Gilroy, sans-serif;
+}
+
+.ContextContainer {
+    margin-left: 6vw;
+    z-index: 50;
+}
+
+.BigText {
+    color: #422626;
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+.SmallText {
+    color: #422626;
+    font-size: 2rem;
+    font-weight: normal;
+}
+
+.HumanImage {
+    position: absolute;
+    margin: 0;
+    top: 10vh;
+    right: 10vw;
+    z-index: 0;
+}
+
+@media (max-width: 600px) {
+    .HumanImage{
+        width: 70vw;
+        right: 5vw;
+    }
+
+    .BigText {
+        font-size: 3rem;
+    }
+
+    .SmallText {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 500px) {
+    .MainSection {
+        margin-top: -140px;
+    }
+
+    .BannerPlaceholder {
+        height: 100vh;
+        border-radius: 0;
+    }
+
+    .HumanImage {
+        width: 80vw;
+        right: 0;
+        top: 50vh;
+    }
+
+    .ContextContainer {
+        margin: 0 10px;
+    }
+
+    .ContextContainer p {
+        margin: 75px 0;
+    }
+
+    .BigText {
+        font-size: 2.5rem;
+    }
+
+    .SmallText {
+        font-size: 1.5rem;
+    }
+
+    .Button {
+        padding: 20px;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (max-height: 450px) {
+    .MainSection {
+        margin-top: -100px;
+    }
+
+    .HumanImage{
+        width: 70vh;
+        right: 5vw;
+        top: 20vh;
+    }
+
+    .BannerPlaceholder {
+        height: 100vh;
+        border-radius: 0;
+    }
+
+    .BigText {
+        font-size: 3rem;
+    }
+
+    .SmallText {
+        font-size: 1.5rem;
+    }
+
+    .ContextContainer {
+        margin-top: 15vh;
+    }
+}

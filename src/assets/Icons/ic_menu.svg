@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="29" height="29" viewBox="0 0 29 29">
+  <g id="ic_menu" style="isolation: isolate">
+    <rect id="rectangle" width="29" height="29" fill="none"/>
+    <path id="path" d="M3,18H26V16H3v2Zm0-5H26V11H3v2ZM3,6V8H26V6Z" transform="translate(0 2.5)" fill="#e24727" fill-rule="evenodd"/>
+  </g>
+</svg>

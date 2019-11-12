@@ -1,0 +1,35 @@
+.Footer {
+    background-color: #F6B251;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    left: 0;
+    /*bottom: 0;*/
+    position: absolute;
+    font-family: Gilroy, sans-serif;
+    font-size: .75rem;
+    margin-top: 20px;
+}
+
+.Footer p {
+    margin: 0 10px;
+}
+
+.Logo {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-left: 6vw;
+}
+
+.Logo img {
+    width: 40px;
+}
+
+@media (max-width: 500px) {
+    .Logo {
+        width: 100%;
+        justify-content: space-between;
+    }
+}

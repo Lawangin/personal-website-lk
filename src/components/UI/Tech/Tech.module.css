@@ -1,0 +1,45 @@
+.TechButton {
+    width: 70px;
+    height: 20px;
+    padding: 5px 15px;
+    border-radius: 32px;
+    color: #F5F1EC;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    opacity: .7;
+}
+
+.ReactBlue {
+    background-color: dodgerblue;
+}
+
+.NodeGreen {
+    background-color: darkgreen;
+}
+
+.FirebaseOrange {
+    background-color: darkorange;
+}
+
+.MongodbGreen {
+    background-color: mediumseagreen;
+}
+
+.ReduxBlue {
+    background-color: steelblue;
+}
+
+.AwsOrange {
+    background-color: #ffb900;
+}
+
+.HerokuPink {
+    background-color: #8b4eac;
+}
+
+.GraphQLPink {
+    background-color: hotpink;
+}

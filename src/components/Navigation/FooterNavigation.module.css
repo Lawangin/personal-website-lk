@@ -1,0 +1,27 @@
+.Navigation {
+    margin-right: 6vw;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    font-family: Gilroy, sans-serif;
+    font-size: .75rem;
+    height: 65px;
+}
+
+
+
+.Navigation li {
+    margin-left: 40px;
+}
+
+.Navigation li a {
+    color: #422626;
+    text-decoration: none;
+}
+
+@media (max-width: 500px) {
+    .Navigation {
+        display: none;
+    }
+}
